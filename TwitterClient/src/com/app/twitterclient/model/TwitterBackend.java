@@ -22,7 +22,7 @@ public class TwitterBackend {
 	private AccessToken token;
 	private RequestToken requestToken;
 	private SharedPreferences mAccountConfigured;
-
+        /// COMMENT
 	public TwitterBackend(String consumerKey, String consumerSecret,
 			Context context) {
 		twitter = new TwitterFactory().getInstance();
